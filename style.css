@@ -1,0 +1,523 @@
+
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+    
+
+    /* position: absolute; */
+
+
+}
+
+.wrapper , .portafolio, .contact-section {
+    width: 100vw;
+
+    color: white;
+    background-color: #191c31;
+    background: #191c31;
+    
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    padding: 2em;
+    background: #191c31;
+}
+
+.brand span {
+    color: aqua;
+}
+
+.brand h2 {
+    border-bottom: 5px solid aqua;
+    border-radius: 20px;
+}
+
+.menu {
+    display: flex;
+    width: 50%;
+    justify-content: space-around;
+
+}
+
+.menu li {
+    list-style: none;
+}
+
+.menu a {
+    color: white;
+    text-decoration: none;
+    transition: .5s all;
+}
+
+.menu a:hover {
+    border-bottom: 3px solid aqua;
+    color: aqua;
+    font-size: larger;
+}
+
+.toggle-menu, .info-content__subtitle, .info-content .sotial-network {
+    display: none;
+}
+
+.main {
+    margin: 0 auto;
+    width: 80vw;
+    height: 80vh;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+}
+
+h1 {
+    font-size: clamp(4vw, 1.5em, 3em);
+
+}
+
+span {
+    color: aqua;
+}
+
+.read-button {
+    padding: 10px 20px;
+    background-color: aqua;
+    border: none;
+    border-radius: 20px;
+    margin-top: 10px;
+    cursor: pointer;
+    box-shadow: 5px 5px;
+    transition: .5s all;
+}
+
+.read-button:hover {
+    font-size: medium;
+} 
+
+.main img {
+    width: 350px;
+    border: 7px solid aqua;
+    transition: .5s all;
+    background: #191c31;
+}
+
+.main img:hover {
+    background: rgb(0, 217, 217);
+    border: 7px dashed #191c31;
+}
+
+.about {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    width: 100vw;
+    align-items: center;
+}
+
+.about img {
+    max-width: 35vw;
+}
+
+.about img {
+    margin: auto;
+    border: 7px solid aqua;
+    background: #191c31;
+    transition: .5s all;
+}
+
+.about img:hover {
+    background: rgb(255, 173, 21);
+    border: 7px dashed #191c31;
+    border-radius: 50%;
+}
+
+.divider {
+    padding-right: 120px;
+}
+
+.abaout img {
+    width: 100%;
+    grid-column: 1/5;
+}
+
+.about-info {
+    grid-column: 5/10;
+    padding-left: 3em;
+}
+
+.about-info h2 {
+    display: inline-block;
+    font-size: 2em;
+    color: #191c31;
+    margin-bottom: 1em;
+    border-bottom: 5px solid aqua;
+    border-radius: 20px;
+}
+
+.about p {
+    margin-bottom: 2em;
+}
+
+.portafolio, .contact-section{ /*********/
+    width: 100vw;
+    background-color: #191c31;
+    color: #fff;
+}
+
+.portafolio-headings {
+    width: 100vw;
+    padding: 5em;
+}
+
+.portafolio-headings h2 {
+    display: inline-block;
+    font-size: 2.5em;
+    border-bottom: 5px solid aqua;
+    border-radius: 20px;
+}
+
+.portafolio .container {
+    width: 80vw;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.card {
+    width: 300px;
+    height: 350px;
+    background-color: #101c4b;
+    margin: 1em;
+}
+
+.card-img {
+    width: 100%;
+    height: 150px;
+    background-image: url(imagenes/html.png);
+    background-size: cover;
+}
+
+.card-img2 {
+    width: 100%;
+    height: 150px;
+    background-image: url(imagenes/css.png);
+    background-size: cover;
+}
+
+.card-img3 {
+    width: 100%;
+    height: 150px;
+    background-image: url(imagenes/js.png);
+    background-size: cover;
+
+}
+
+.card-title {
+    padding: 20px;
+}
+
+.card-project-links {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.card-project-links a {
+    color: white;
+    text-decoration: none;
+}
+
+.card-project-links i {
+    font-size: 1.5 em;
+}
+
+.card .proyect-details {
+    display: flex;
+    justify-content: center;
+    margin: 1em; 
+    
+    
+}
+
+.detail-button {
+    padding: 10px 20px;
+    background-color: aqua;
+    border: none;
+    border-radius: 20px;
+    margin-top: 10px;
+    cursor: pointer;
+    box-shadow: 5px 5px;
+    transition: .5s all;
+    margin: auto;
+}
+
+.detail-button:hover {
+    font-size: medium;
+}
+
+.proyect-details-content {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    margin-top: 1em;
+}
+
+.contact-headings h2 {
+    display: inline-block;
+    font-size: 3em;
+    padding-left: 80px;
+    color: aqua;
+}
+
+#me {
+    border-bottom: 5px solid #fff;
+}
+
+.container-contact {
+    padding: 3em;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.container-contact img {
+    width: 750px;
+    height: 500px;
+    border-radius: 50%;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    width: 30vw;
+    margin-top: 2em;
+}
+
+.form input {
+    padding: 10px 20px;
+    margin-bottom: 1em;
+    background: none;
+    border: none;
+    border-bottom: 1px solid white;
+    color: white;
+}
+
+.contact-form h4 {
+    padding-bottom: 10px;
+}
+
+.form textarea {
+    height: 150px;
+    background: none;
+    color: white;
+    padding: 1.5em;
+    border: 1px solid white;
+}
+
+.btn-submit {
+    padding: 10px 20px;
+    margin: 1em;
+    border: none;
+    text-transform: uppercase;
+    background: aqua;
+    border-radius: 20px;
+    cursor: pointer;
+    box-shadow: 5px 5px black;
+    transition: .5s all;
+}
+
+.btn-submit:hover {
+    background: aqua;
+    font-size:medium;
+}
+
+.contact {
+    border-radius: 20%;
+}
+
+.footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 200px;
+    background: aqua
+}
+
+.footer-content h2 {
+    font-size: 3em;
+}
+
+.footer-content h5, .sotial-network {
+    font-size: 1.5em;
+    display: flex; /*agregado*/
+    justify-content: center; /*agregado*/
+    align-items: center; /*agregado*/
+}
+
+.sotial-network {   /*agregado*/
+    padding-left: 30px;  /*agregado*/
+}
+
+.sotial-network {
+    display: flex;
+    justify-content: space-evenly;
+    width: 300px;
+    margin-top: 1em;
+}
+
+.sotial-network i {
+    transition: .5s all;
+}
+
+.sotial-network i:hover {
+    font-size: 40px;
+}
+
+.footer-content  h2 {
+    
+    border-bottom: 5px solid #191c31;
+    border-radius: 20px;
+}
+
+@media screen and (max-width: 800px){
+
+    .menu {
+        flex-direction: column;
+        justify-content: center;
+        position: absolute;
+        top: 0;
+        left: 0;
+        height: 100vh;
+        background-color: #2b3058;
+        z-index: 100;
+        transform: translateX(-110%);
+        transition: all .5s ease-in-out;
+    }
+
+    .show-menu{
+        transform: translateX(0%);
+        transition: all .5s ease-in-out;
+    }
+
+    .menu li {
+        margin: 2em;
+    }
+
+    .toggle-menu{
+        display: block;
+    }
+
+    .fa-bars {
+        font-size: 1.5em;
+        margin-top: -.2em;
+    }
+
+    .toggle-menu .fa-xmark{
+        font-size: 1.7em;
+        display: none;
+    }
+
+    .main, .about{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .main img{
+        width: min(70%, 350px);
+        margin: auto;
+    }
+
+    .info-content{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        padding-bottom: 80px;
+    }
+
+    .info-content .sotial-network, .info-content__subtitle {
+        display: block;
+    }
+
+    .info-content__subtitle{
+        margin-bottom: .5em;
+    }
+
+    .info-content .sotial-network{
+        display: flex;
+        justify-content: space-evenly;
+    }
+
+    .info-content__p{
+        display: none;
+    }
+
+    .read-button {   /**/
+        display: none;
+    }
+
+    .about {
+        padding-top: 20px;
+    }
+
+    #toggle_open, #toggle_close {
+        transition: all .5s;
+    }
+
+    #toggle_open:hover, #toggle_close:hover{
+        color: aqua;
+        font-size: xx-large;
+    }
+
+    .contact{
+        display: none;
+    }
+
+    .form {
+        width: 80vw;
+    }
+
+    .dennisDos {
+        max-width: 90vw;
+        margin-right: 25px;
+    }
+
+    #CONTACTO{
+        max-width: 100vw;
+    }
+
+    .footer-content h2 {
+        font-size: 2em;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .contact-headings h2 {
+        padding-left: 52px;
+    }
+
+    .about img {
+        margin: auto;
+        max-width:70vw;
+    }
+
+    .about img {
+        transition: .8s all;
+    }
+
+
+   
+
+    
+
+
+
+
+}
+
+
